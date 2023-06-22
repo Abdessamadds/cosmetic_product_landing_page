@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+*::selection{
+  background-color: #402f2c;
+  color: white;
+}
+body ,html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+header {
+  background: #f9f6f5;
+}
+.home input {
+  outline: none;
+  border: none;
+}
+.home label {
+  background-color: white;
+  padding: 3px;
+}
+.home a {
+  text-decoration: none;
+  background: #402f2c;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.home a:hover {
+  background-color: transparent;
+  color: #402f2c;
+}
+.home input::placeholder {
+  padding-left: 7px;
+}
+.home button {
+  background: #402f2c;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+  margin-top: 3rem;
+  background: linear-gradient(to left, transparent 50%, #402f2c 50%);
+  background-size: 200%;
+  background-position: left;
+  border: 1px solid #402f2c;
+  transition: 0.4s ease;
+}
+.home button:hover {
+  background-position: right;
+  color: black;
+  border: 1px dashed #402f2c;
+}
